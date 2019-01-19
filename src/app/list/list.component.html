@@ -1,0 +1,12 @@
+<div class="container">
+<div class="row">
+	<div class="col-md-2 col-sm-2 col-xs-2">
+		<h3>Id</h3>
+		<a *ngFor="let user of userPost" routerLink="detail/{{user.id}}"><h4 (click)="getBodyPost()">{{user.id}}</h4></a>
+	</div>
+	<div class="col-md-10 col-sm-10 col-xs-10">
+		<h3>Title</h3>
+		<h4 *ngFor="let user of userPost">{{user.title}}</h4>
+	</div>
+</div>
+</div>

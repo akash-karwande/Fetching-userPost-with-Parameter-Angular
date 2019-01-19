@@ -1,0 +1,23 @@
+.btn.btn-default {
+	width: 100%;
+	background: gray;
+	color: #fff;
+}
+.col-md-6.padd {
+	padding-right: 2px;
+}
+.row {
+	width: 100%;
+	margin: 0;
+	height: 60px;
+	padding: 0;
+	background: #e0e0e0;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.container-fluid {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
